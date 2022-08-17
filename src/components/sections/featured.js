@@ -233,10 +233,7 @@ const StyledProject = styled.li`
       }
     }
 
-    .cta {
-      ${({ theme }) => theme.mixins.smallButton};
-      margin: 10px;
-    }
+    
   }
 
   .project-image {
@@ -321,7 +318,6 @@ const Featured = () => {
               tech
               github
               external
-              cta
             }
             html
           }
@@ -342,17 +338,15 @@ const Featured = () => {
   return (
     <section id="projects">
       <h2 className="numbered-heading" ref={revealTitle}>
-        Some Things I’ve Built
+        Some Things I’ve Built, so far 
+        {/* Some of my projects so far */}
       </h2>
-      <p>
-        I continuously update this section to feature more of my recent projects.
-      </p>
 
       <StyledProjectsGrid>
         {featuredProjects &&
           featuredProjects.map(({ node }, i) => {
             const { frontmatter, html } = node;
-            const { external, title, tech, github, cover, cta } = frontmatter;
+            const { external, title, tech, github, cover } = frontmatter;
             const image = getImage(cover);
 
             return (
@@ -378,18 +372,13 @@ const Featured = () => {
                       </ul>
                     )}
 
-                    <div className="project-links">
-                      {cta && (
-                        <a href={cta} aria-label="Course Link" className="cta">
-                          Learn More
-                        </a>
-                      )}
+                    <div className="project-links">                
                       {github && (
                         <a href={github} aria-label="GitHub Link">
                           <Icon name="GitHub" />
                         </a>
                       )}
-                      {external && !cta && (
+                      {external && (
                         <a href={external} aria-label="External Link" className="external">
                           <Icon name="External" />
                         </a>

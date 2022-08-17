@@ -25,14 +25,14 @@ const Loader = ({ finishLoading }) => {
       complete: () => finishLoading(),
     });
 
-    // loader
-    //   .add({
-    //     targets: '.loader',
-    //     duration: 200,
-    //     easing: 'easeInOutQuart',
-    //     opacity: 0,
-    //     zIndex: -1,
-    //   });
+    loader
+      .add({
+        targets: '.loader',
+        duration: 200,
+        easing: 'easeInOutQuart',
+        opacity: 0,
+        zIndex: -1,
+      });
   };
 
   useEffect(() => {

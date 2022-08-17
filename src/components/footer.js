@@ -69,7 +69,7 @@ const Footer = () => {
 
       <StyledCredit tabindex="-1">
         <a href="https://github.com/jsmn-prhmt">
-          <div>Designed &amp; Built by Yasaman Porhemmat</div>
+          <div>By Yasaman Porhemmat - 2022</div>
         </a>
       </StyledCredit>
     </StyledFooter>

@@ -119,7 +119,8 @@ const About = () => {
     sr.reveal(revealContainer.current, srConfig());
   }, []);
 
-  const skills = ['JavaScript', 'React', 'GraphQL', 'Node.js', 'TypeScript', 'MongoDB', 'MySQL'];
+  const skills = ['JavaScript', 'React', 'GraphQL', 'Node.js/Express', 'TypeScript', 'Next.js/Gatsby',
+    'MongoDB', 'MySQL', 'REST(ful) API', 'JWT'];
 
   return (
     <StyledAboutSection id="about" ref={revealContainer}>
@@ -129,7 +130,7 @@ const About = () => {
         <StyledText>
           <div>
             <p>
-              Hello! My name is Yasaman and I’m an aspiring full-stack developer.
+              Hello! My name is Yasaman, originally from Iran, I’m an aspiring full-stack developer.
               I enjoy creating things that live on the internet, &amp; I'm specializing
               in web development working with MERN stack and Typescript.
             </p>
