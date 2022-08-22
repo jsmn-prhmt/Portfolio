@@ -7,7 +7,7 @@ tech:
   - Javascript
   - Webpack
   - Babel
-showInProjects: false
+showInProjects: true
 ---
 
 UI library with multiple components including tooltips, dropdowns, tab contents & toast - using Webpack boilerplate & Babel.

@@ -6,7 +6,7 @@ external: 'mock-portfolio-website.netlify.app'
 tech:
   - Gatsby
   - Netlify
-showInProjects: false
+showInProjects: true
 ---
 
 Simple portfolio website using Gatsby, deployed to Netlify.

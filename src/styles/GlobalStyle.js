@@ -1,5 +1,5 @@
 import { createGlobalStyle } from 'styled-components';
-// import fonts from './fonts';
+import fonts from './fonts';
 import variables from './variables';
 import TransitionStyles from './TransitionStyles';
 import PrismStyles from './PrismStyles';
@@ -322,7 +322,7 @@ const GlobalStyle = createGlobalStyle`
         padding-left: 30px;
         margin-bottom: 10px;
         &:before {
-          content: '▹';
+          content: '•';
           position: absolute;
           left: 0;
           color: var(--green);

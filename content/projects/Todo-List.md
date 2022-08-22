@@ -6,5 +6,5 @@ external: 'https://td-lst.netlify.app/'
 tech:
   - Javascript
   - Bootstrap
-showInProjects: false
+showInProjects: true
 ---

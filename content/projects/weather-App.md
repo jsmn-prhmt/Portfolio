@@ -6,7 +6,7 @@ external: 'https://wthr-app-project.netlify.app/'
 tech:
   - Javascript
   - API
-showInProjects: false
+showInProjects: true
 ---
 
 A weather app using asynchronous Javascript, Fetch API promises, async and await.

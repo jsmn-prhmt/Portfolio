@@ -15,8 +15,7 @@ const Head = ({ title, description, image }) => {
             defaultTitle: title
             defaultDescription: description
             siteUrl
-            defaultImage: image
-            
+            defaultImage: image 
           }
         }
       }

@@ -173,6 +173,7 @@ const Jobs = () => {
         edges {
           node {
             frontmatter {
+              date
               title
               company
               location
@@ -238,7 +239,7 @@ const Jobs = () => {
 
   return (
     <StyledJobsSection id="jobs" ref={revealContainer}>
-      <h2 className="numbered-heading">What I've been up to</h2>
+      <h2 className="numbered-heading">Experiences</h2>
 
       <div className="inner">
         <StyledTabList role="tablist" aria-label="Job tabs" onKeyDown={e => onKeyDown(e)}>
@@ -279,7 +280,7 @@ const Jobs = () => {
                     aria-hidden={activeTabId !== i}
                     hidden={activeTabId !== i}>
                     <h3>
-                      <span>{title}</span>
+                      <span>{title} </span>
                       <span className="company">
                         &nbsp;@&nbsp;
                         <a href={url} className="inline-link">

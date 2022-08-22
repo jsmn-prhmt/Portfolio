@@ -6,7 +6,7 @@ external: 'https://personal-data-list-94hv38sdt-jsmn-prhmt.vercel.app/'
 tech:
   - Next js 
   - Vercel
-showInProjects: false
+showInProjects: true
 ---
 
 A simple list of people and their data using Next js and deployed to Vercel.

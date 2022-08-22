@@ -6,7 +6,7 @@ external: 'https://multiple-choice-quiz-project.netlify.app/'
 tech:
   - Javascript
   - Bootstrap
-showInProjects: false
+showInProjects: true
 ---
 
 A simple interactive quiz written in Javascript, using basic Bootstrap to setup a template for the project.

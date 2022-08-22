@@ -6,7 +6,7 @@ external: 'https://recipe-dircetory-app.netlify.app/'
 tech:
   - React (context API)
   - Firebase
-showInProjects: false
+showInProjects: true
 ---
 
 A simple recipe application to create and search recipes. Containing list of recipes, with detail component for each recipe.
