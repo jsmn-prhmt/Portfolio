@@ -1,8 +1,8 @@
 ---
-date: '2020'
+date: '2019'
 title: 'Marketing & Business Development'
 company: 'Retain'
-location: 'Iran, Turkey'
+location: 'Iran'
 range: 'Retain was a real-time web and mobile messaging platform for businesses and their customers, used for marketing, sales, and support.'
 url: 'https://www.retain.ir'
 ---
