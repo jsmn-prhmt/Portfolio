@@ -1,0 +1,13 @@
+---
+date: '2022'
+title: 'Finance Logger'
+github: 'https://github.com/jsmn-prhmt/Finance-Logger'
+external: ''
+tech:
+  - Typescript
+  - HTML
+  - CSS
+showInProjects: false
+---
+
+A basic form written in Typescript where you can add and maintain records of any expense.

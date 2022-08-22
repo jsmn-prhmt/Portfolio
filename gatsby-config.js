@@ -6,8 +6,7 @@ module.exports = {
     description:
       'Web developer',
     siteUrl: 'https://github.com/jsmn-prhmt', // No trailing slash allowed!
-    image: '/og.png', // Path to your image you placed in the 'static' folder
-    twitterUsername: '@bchiang7',
+    image: '/o.png',
   },
   plugins: [
     `gatsby-plugin-react-helmet`,

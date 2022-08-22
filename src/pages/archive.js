@@ -90,11 +90,6 @@ const StyledTableContainer = styled.div`
         line-height: 1.25;
       }
 
-      &.company {
-        font-size: var(--fz-lg);
-        white-space: nowrap;
-      }
-
       &.tech {
         font-size: var(--fz-xxs);
         font-family: var(--font-mono);
@@ -147,7 +142,7 @@ const ArchivePage = ({ location, data }) => {
       <main>
         <header ref={revealTitle}>
           <h1 className="big-heading">Archive</h1>
-          <p className="subtitle">A big list of things I’ve worked on</p>
+          <p className="subtitle">Everything I’ve done, so far</p>
         </header>
 
         <StyledTableContainer ref={revealTable}>
@@ -156,7 +151,6 @@ const ArchivePage = ({ location, data }) => {
               <tr>
                 <th>Year</th>
                 <th>Title</th>
-                <th className="hide-on-mobile">Made at</th>
                 <th className="hide-on-mobile">Built with</th>
                 <th>Link</th>
               </tr>
@@ -168,22 +162,15 @@ const ArchivePage = ({ location, data }) => {
                     date,
                     github,
                     external,
-                    ios,
-                    android,
                     title,
-                    tech,
-                    company,
+                    tech
                   } = node.frontmatter;
                   return (
                     <tr key={i} ref={el => (revealProjects.current[i] = el)}>
                       <td className="overline year">{`${new Date(date).getFullYear()}`}</td>
 
                       <td className="title">{title}</td>
-
-                      <td className="company hide-on-mobile">
-                        {company ? <span>{company}</span> : <span>—</span>}
-                      </td>
-
+                    
                       <td className="tech hide-on-mobile">
                         {tech?.length > 0 &&
                           tech.map((item, i) => (
@@ -205,16 +192,6 @@ const ArchivePage = ({ location, data }) => {
                           {github && (
                             <a href={github} aria-label="GitHub Link">
                               <Icon name="GitHub" />
-                            </a>
-                          )}
-                          {ios && (
-                            <a href={ios} aria-label="Apple App Store Link">
-                              <Icon name="AppStore" />
-                            </a>
-                          )}
-                          {android && (
-                            <a href={android} aria-label="Google Play Store Link">
-                              <Icon name="PlayStore" />
                             </a>
                           )}
                         </div>
@@ -250,9 +227,6 @@ export const pageQuery = graphql`
             tech
             github
             external
-            ios
-            android
-            company
           }
           html
         }
