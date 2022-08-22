@@ -5,7 +5,7 @@ github: 'https://github.com/jsmn-prhmt/Project-Management-Site'
 external: 'https://project-management-site-9a0cb.web.app/'
 tech:
   - React
-  - Firebase authentication, storage, rules
+  - Firebase Auth, Storage, Rules
 showInProjects: false
 ---
 

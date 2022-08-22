@@ -5,7 +5,7 @@ github: 'https://github.com/jsmn-prhmt/Matching-Game'
 external: 'https://card-matching-game-app.netlify.app/'
 tech:
   - React
-showInProjects: false
+showInProjects: true
 ---
 
 Card-matching game using React

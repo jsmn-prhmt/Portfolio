@@ -8,8 +8,9 @@ tech:
   - JSON data 
   - Heroku
   - Netlify
-showInProjects: false
+showInProjects: true
 ---
 
-Based on the famous web-based word game using React.
-Done with JSON data, deployed to Heroku. Frontend deployed to Netlify.
+Based on the famous web-based word game using React.      
+
+__Due to Heroku's [Dyano Sleeping](https://devcenter.heroku.com/articles/free-dyno-hours#dyno-sleeping) policy, you might experience an initial delay.__

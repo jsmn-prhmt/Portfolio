@@ -4,7 +4,7 @@ title: 'Finance Logger'
 github: 'https://github.com/jsmn-prhmt/Finance-Logger'
 external: ''
 tech:
-  - Typescript
+  - TypeScript
   - HTML
   - CSS
 showInProjects: false

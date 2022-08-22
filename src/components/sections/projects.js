@@ -78,13 +78,6 @@ const StyledProject = styled.li`
   .project-top {
     ${({ theme }) => theme.mixins.flexBetween};
     margin-bottom: 35px;
-
-    .folder {
-      color: var(--green);
-      svg {
-        width: 40px;
-        height: 40px;
-      }
     }
 
     .project-links {
@@ -213,9 +206,6 @@ const Projects = () => {
       <div className="project-inner">
         <header>
           <div className="project-top">
-            <div className="folder">
-              <Icon name="Folder" />
-            </div>
             <div className="project-links">
               {github && (
                 <a href={github} aria-label="GitHub Link" target="_blank" rel="noreferrer">
@@ -259,7 +249,7 @@ const Projects = () => {
 
   return (
     <StyledProjectsSection>
-      <h2 ref={revealTitle}>Complete list of Projects</h2>
+      <h2 ref={revealTitle}>Other Projects</h2>
 
       <Link className="inline-link archive-link" to="/archive" ref={revealArchiveLink}>
         view the archive
