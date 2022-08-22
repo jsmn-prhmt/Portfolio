@@ -17,8 +17,6 @@ const StyledHeader = styled.header`
   width: 100%;
   height: var(--nav-height);
   background-color: rgba(14, 18, 18, 0.65);
-  // (10, 25, 47, 0.85)
-
   filter: none !important;
   pointer-events: auto !important;
   user-select: auto !important;
@@ -131,8 +129,6 @@ const Nav = ({ isHome }) => {
   const timeout = isHome ? loaderDelay : 0;
   const fadeClass = isHome ? 'fade' : '';
   const fadeDownClass = isHome ? 'fadedown' : '';
-
-  
 
   const ResumeLink = (
     <a className="resume-button" href="/resume.pdf" target="_blank" rel="noopener noreferrer">
