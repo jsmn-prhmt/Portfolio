@@ -49,15 +49,15 @@ const Contact = () => {
 
   return (
     <StyledContactSection id="contact" ref={revealContainer}>
-      <h2 className="numbered-heading overline">What’s Next?</h2>
+      <h2 className="numbered-heading overline">Get In Touch</h2>
 
-      <h2 className="title">Get In Touch</h2>
-
+      <h2 className="title">Let's build something
+great together.</h2>
+      
       <p>
-        I am currently looking for an entry/junior-level position. 
-        I’m eligible to work full-time in the Netherlands and currently live in Amsterdam.
-        Whether it's a job opportunity or you have a question, do not hesitate to contact me.
-        I’ll try my best to get back to you!
+        Whether it's a job opportunity or a chance to participate in web-development projects, in any shape or form, 
+        do not hesitate to contact me.
+        I would get back to you!
       </p>
 
       <a className="email-link" href={`mailto:${email}`}>

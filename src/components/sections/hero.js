@@ -61,24 +61,15 @@ const Hero = () => {
         I’m a software engineer specializing in building (and occasionally designing) exceptional
         digital experiences. Currently, I’m focused on building accessible, human-centered products
         at{' '}
-        <a href="" target="_blank" rel="noreferrer">
+        <a href="https://github.com/jsmn-prhmt" target="_blank" rel="noreferrer">
           Github
         </a>
         .
       </p>
     </>
   );
-  const five = (
-    <a
-      className="email-link"
-      href="https://github.com/jsmn-prhmt"
-      target="_blank"
-      rel="noreferrer">
-      Check out my Github!
-    </a>
-  );
 
-  const items = [one, two, three, four, five];
+  const items = [one, two, three, four];
 
   return (
     <StyledHeroSection>

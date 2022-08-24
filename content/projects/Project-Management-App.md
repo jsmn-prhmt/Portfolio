@@ -19,9 +19,3 @@ Creating graphql-server on Node js/Express app. React, Apollo, and Bootstrap for
 Deployed to Heroku.     
 
 __Due to Heroku's [Dyano Sleeping](https://devcenter.heroku.com/articles/free-dyno-hours#dyno-sleeping) policy, you might experience an initial delay.__
-
-
-I’m an aspiring MERN stack developer looking for an entry-level/junior position to grow my passion & gain real-world experience. I’m willing to start with an unpaid position provided there is a quick & clear path to growth and promotion to a paid job.       
-
-I’ve completed a few courses on Udemy for Javascript and React and self-taught myself some other full-stack technologies, eventually exclusively settling on the MERN stack. 
-I’ve done multiple small projects to put my skills to the test, and show my level in relevant areas to my future employer. 
