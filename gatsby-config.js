@@ -5,7 +5,7 @@ module.exports = {
     title: 'ysmn.is',
     description:
       'Web developer',
-    siteUrl: 'https://github.com/jsmn-prhmt', // No trailing slash allowed!
+    siteUrl: 'https://github.com/jsmn-prhmt', 
     image: '/o.png',
   },
   plugins: [
@@ -25,7 +25,6 @@ module.exports = {
         background_color: config.colors.darkNavy,
         theme_color: config.colors.navy,
         display: 'minimal-ui',
-        icon: 'src/images/logo.png'
       },
     },
     {

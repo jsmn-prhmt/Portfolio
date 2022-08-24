@@ -18,4 +18,3 @@ Backend is Node js Express app, using Mongoose models to interact with MongoDB, 
 
 JWT for authentication. 
 Deployed to Heroku.
-
