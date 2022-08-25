@@ -20,7 +20,7 @@ const StyledAboutSection = styled.section`
 const StyledText = styled.div`
   ul.skills-list {
     display: grid;
-    grid-template-columns: repeat(2, minmax(140px, 200px));
+    grid-template-columns: repeat(4, minmax(140px, 200px));
     grid-gap: 0 10px;
     padding: 0;
     margin: 20px 0 0 0;
@@ -130,18 +130,16 @@ const About = () => {
         <StyledText>
           <div>
             <p>
-              Hello! My name is Yasaman, originally from Iran, I’m an aspiring full-stack developer.
-              I enjoy creating things that live on the internet, &amp; I'm specializing
-              in web development working with MERN stack and Typescript.
-            </p>
-
+              I’m an aspiring full-stack developer specializing in web development working with MERN stack + Typescript. 
+              <br/>For many years, I was a successful architect, having worked almost exclusively with a variety of design and modeling software, 
+              I always had a thing for programming, eventually made the switch in late 2021.
+            </p>  
             <p>
-              Fast-forward to today, and I’ve done quite a few projects with various technologies{' '}
-              <a href="#">description</a>,{' '}
-              {/* <a href="">description</a>,{' '}, and{' '}
-              <a href="">description</a>. */}
-              My main focus these days is building accessible, inclusive products and digital
-              {/* experiences at <a href="">Github</a>. */}
+              I did a few courses on Udemy for JavaScript & React and self-taught some other full-stack technologies and settled on the MERN stack.
+              I’ve done multiple small {' '}<a href="#projects">projects</a>{' '} to put my skills to test and show my level in relevant areas.
+            </p>
+            <p>
+              Here are the technologies I've been working with:
             </p>
           </div>
           <ul className="skills-list">

@@ -2,7 +2,6 @@ import React, { useState, useEffect } from 'react';
 import { CSSTransition, TransitionGroup } from 'react-transition-group';
 import styled from 'styled-components';
 import { navDelay, loaderDelay } from '@utils';
-// import { email } from '@config';
 
 const StyledHeroSection = styled.section`
   ${({ theme }) => theme.mixins.flexCenter};
@@ -35,12 +34,7 @@ const StyledHeroSection = styled.section`
 
   p {
     margin: 20px 0 0;
-    max-width: 540px;
-  }
-
-  .email-link {
-    ${({ theme }) => theme.mixins.bigButton};
-    margin-top: 50px;
+    max-width: 590px;
   }
 `;
 
@@ -58,14 +52,16 @@ const Hero = () => {
   const four = (
     <>
       <p>
-        I’m a software engineer specializing in building (and occasionally designing) exceptional
-        digital experiences. Currently, I’m focused on building accessible, human-centered products
-        at{' '}
+        An architect turned full-stack web developer | MERN Stack + Typescript
+        Living in Amsterdam, Netherlands.
+        Currently looking for an entry-level/junior position to grow my passion & gain real-world experience.
+        </p>
+        <p>Check out my{' '} 
         <a href="https://github.com/jsmn-prhmt" target="_blank" rel="noreferrer">
           Github
         </a>
-        .
-      </p>
+        !
+        </p>
     </>
   );
 

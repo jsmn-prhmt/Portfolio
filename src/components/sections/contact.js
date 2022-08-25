@@ -55,7 +55,7 @@ const Contact = () => {
 great together.</h2>
       
       <p>
-        Whether it's a job opportunity or a chance to participate in web-development projects, in any shape or form, 
+        Whether it's a job opportunity or a chance for collaboration in interesting web-development projects, in any shape or form, 
         do not hesitate to contact me.
         I would get back to you!
       </p>
