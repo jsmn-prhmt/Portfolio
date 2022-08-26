@@ -13,4 +13,3 @@ url: ''
 - Ranked 13th in the national entrance exam for graduate schools of architecture (Sanjesh Organization) | 2015
 - BSc Architecture | GPA: 18.38/20 | 2010-2014 | Azad University Science and research brand, Faculty of Architecture, Iran
 - TOEFL IBT score: 117/120 | 2011
-

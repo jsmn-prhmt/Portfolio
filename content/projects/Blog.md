@@ -9,7 +9,7 @@ tech:
   - EJS
   - MongoDB (Mongoose)
   - Heroku
-showInProjects: false
+showInProjects: True
 ---
 
 A Node js CRUD style Blog app to list all the blogs, add new blogs & delete blogs (get, post and delete requests).
