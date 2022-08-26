@@ -119,7 +119,7 @@ const About = () => {
     sr.reveal(revealContainer.current, srConfig());
   }, []);
 
-  const skills = ['JavaScript', 'React', 'GraphQL', 'Node.js/Express', 'TypeScript', 'Next.js/Gatsby',
+  const skills = ['JavaScript', 'TypeScript', 'GraphQL', 'Node.js/Express', 'React', 'Next.js', 'Gatsby',
     'MongoDB', 'MySQL', 'REST(ful) API', 'JWT'];
 
   return (
@@ -131,15 +131,15 @@ const About = () => {
           <div>
             <p>
               I’m an aspiring full-stack developer specializing in web development working with MERN stack + Typescript. 
-              <br/>For many years, I was a successful architect, having worked almost exclusively with a variety of design and modeling software, 
-              I always had a thing for programming, eventually made the switch in late 2021.
+              <br/>For many years I was a successful architect, having worked almost exclusively with a variety of design and modeling softwares, 
+              I always had a thing for programming, and eventually made the switch in late 2021.
             </p>  
             <p>
-              I did a few courses on Udemy for JavaScript & React and self-taught some other full-stack technologies and settled on the MERN stack.
+              I did a few courses on Udemy for JavaScript & React, self-taught some other full-stack technologies, and settled on the MERN stack.
               I’ve done multiple small {' '}<a href="#projects">projects</a>{' '} to put my skills to test and show my level in relevant areas.
             </p>
             <p>
-              Here are the technologies I've been working with:
+              Here are some of the technologies I've been working with:
             </p>
           </div>
           <ul className="skills-list">
