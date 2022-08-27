@@ -1,5 +1,5 @@
 ---
-date: '2022'
+date: '2021'
 title: 'Calculator'
 github: 'https://github.com/jsmn-prhmt/Calculator'
 external: 'https://calculator-javascript-app-project.netlify.app'
@@ -10,4 +10,4 @@ tech:
 showInProjects: false
 ---
 
-Simple calculator app using HTML, CSS and JavaScript
+A simple calculator app using HTML, CSS and JavaScript
