@@ -1,5 +1,5 @@
 ---
-date: '3'
+date: '2'
 title: 'Wordle'
 cover: './Wordle.png'
 github: 'https://github.com/jsmn-prhmt/Wordle'
