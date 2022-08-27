@@ -1,5 +1,5 @@
 ---
-date: '3'
+date: '2'
 title: 'Project-Management-App'
 cover: './Project-Management.png'
 github: 'https://github.com/jsmn-prhmt/Project-Management-App'
