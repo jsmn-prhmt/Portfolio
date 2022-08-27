@@ -9,4 +9,4 @@ tech:
 showInProjects: true
 ---
 
-A simple list of people and their data using Next js and deployed to Vercel
+A simple list of people and their data using Next js and deployed with Vercel

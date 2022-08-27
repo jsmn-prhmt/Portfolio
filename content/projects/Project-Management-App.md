@@ -15,4 +15,4 @@ showInProjects: true
 
 A simple managament MERN-app, with full CRUD functionality               
 
-Creating graphql-server on Node js/Express app // React, Apollo, and Bootstrap for the frontend - Deployed with Heroku
+Creating graphql-server on Node.js (Express) // React, Apollo, and Bootstrap for the frontend - Deployed with Heroku

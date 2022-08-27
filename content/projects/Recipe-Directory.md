@@ -2,14 +2,13 @@
 date: '2022'
 title: 'Recipe Directory'
 github: 'https://github.com/jsmn-prhmt/Recipe-Directory'
-external: 'https://recipe-dircetory-app.netlify.app/'
+external: 'https://recipe-dircetory-app.netlify.app'
 tech:
   - React (context API)
   - Firebase
 showInProjects: true
 ---
 
-A simple recipe application to create and search recipes. Containing list of recipes, with detail component for each recipe.
-Other functionalities include color-theme selector and dark/light mode using context API and Reducers.
+A simple recipe application to create and search recipes   
 
-Done with Firebase.
+Other functionalities include color-theme selector and dark/light mode using context API and Reducers - Done with Firebase
