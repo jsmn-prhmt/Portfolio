@@ -22,8 +22,7 @@ module.exports = {
         name: 'Yasaman',
         short_name: 'YsmnPrhmt',
         start_url: '/',
-        background_color: config.colors.darkNavy,
-        theme_color: config.colors.navy,
+        theme_color: config.colors.black,
         display: 'minimal-ui',
         icon: 'src/images/logo.png',
       },
@@ -68,7 +67,7 @@ module.exports = {
               maxWidth: 700,
               linkImagesToOriginal: true,
               quality: 90,
-              tracedSVG: { color: config.colors.green },
+              tracedSVG: { color: config.colors.purple },
             },
           },
           {
