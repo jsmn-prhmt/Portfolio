@@ -1,5 +1,4 @@
 import { createGlobalStyle } from 'styled-components';
-import fonts from './fonts';
 import variables from './variables';
 import TransitionStyles from './TransitionStyles';
 import PrismStyles from './PrismStyles';
