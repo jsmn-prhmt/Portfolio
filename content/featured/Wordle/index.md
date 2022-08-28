@@ -3,7 +3,7 @@ date: '2'
 title: 'Wordle'
 cover: './Wordle.png'
 github: 'https://github.com/jsmn-prhmt/Wordle'
-external: 'https://wordle-react-app.netlify.app/'
+external: 'https://wordle-react-app.netlify.app'
 tech:
   - React
   - JSON data 
@@ -12,4 +12,4 @@ tech:
 ---
 
 Based on the famous web-based word game using React.   
-Done with JSON data, deployed to Heroku. Frontend deployed to Netlify.
+Done with JSON data, deployed with Heroku and frontend with Netlify.

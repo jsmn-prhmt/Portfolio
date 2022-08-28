@@ -16,5 +16,4 @@ tech:
 Workout tracking application built with the MERN stack & REST API.
 Backend is Node js Express app, using Mongoose models to interact with MongoDB, and frontend is React app.
 
-JWT for authentication. 
-Deployed to Heroku.
+JWT for authentication - Deployed with Heroku
