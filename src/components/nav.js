@@ -38,7 +38,7 @@ const StyledHeader = styled.header`
         height: var(--nav-scroll-height);
         transform: translateY(0px);
         background-color: rgba(14, 18, 18, 0.85);
-        box-shadow: 0 10px 30px -10px var(--navy-shadow);
+        box-shadow: 0 10px 30px -10px var(--black-shadow);
       `};
 
     ${props =>
@@ -47,7 +47,7 @@ const StyledHeader = styled.header`
       css`
         height: var(--nav-scroll-height);
         transform: translateY(calc(var(--nav-scroll-height) * -1));
-        box-shadow: 0 10px 30px -10px var(--navy-shadow);
+        box-shadow: 0 10px 30px -10px var(--black-shadow);
       `};
   }
 `;
@@ -88,7 +88,7 @@ const StyledLinks = styled.div`
         &:before {
           content: '0' counter(item) '.';
           margin-right: 5px;
-          color: var(--green);
+          color: var(--purple);
           font-size: var(--fz-xxs);
           text-align: right;
         }

@@ -3,10 +3,10 @@ import { css } from 'styled-components';
 const variables = css`
   :root {
 
-    --navy: #0e1212; 
-    --light-navy: #1a1e1e;
-    --lightest-navy: #2b2d40;
-    --navy-shadow: rgba(35, 39, 39, 0.5);
+    --black: #0e1212; 
+    --light-black: #1a1e1e;
+    --lightest-black: #2b2d40;
+    --black-shadow: rgba(35, 39, 39, 0.5);
     --dark-slate: #5f6269;
     --slate: #7a7a7a;
     --light-slate: #ababba;
@@ -15,8 +15,8 @@ const variables = css`
     --white: #fd8e8e;
 
   
-    --green: #682ae9;
-    --green-tint: rgba(104, 42, 233, 0.1);
+    --purple: #682ae9;
+    --purple-tint: rgba(104, 42, 233, 0.1);
     
     --blue: #57cbff;
 

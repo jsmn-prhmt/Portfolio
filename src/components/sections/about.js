@@ -38,7 +38,7 @@ const StyledText = styled.div`
         content: '•';
         position: absolute;
         left: 0;
-        color: var(--green);
+        color: var(--purple);
         font-size: var(--fz-sm);
         line-height: 12px;
       }
@@ -99,12 +99,12 @@ const StyledPic = styled.div`
     &:before {
       top: 0;
       left: 0;
-      background-color: var(--navy);
+      background-color: var(--black);
       mix-blend-mode: screen;
     }
 
     &:after {
-      border: 2px solid var(--green);
+      border: 2px solid var(--purple);
       top: 20px;
       left: 20px;
       z-index: -1;
