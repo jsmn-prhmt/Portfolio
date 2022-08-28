@@ -2,7 +2,7 @@ const config = require('./src/config');
 
 module.exports = {
   siteMetadata: {
-    title: 'ysmn.is',
+    title: 'Yasaman Prhmt',
     description:
       'Web developer',
     siteUrl: 'https://github.com/jsmn-prhmt', 
