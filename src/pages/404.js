@@ -14,7 +14,7 @@ const StyledMainContainer = styled.main`
 const StyledTitle = styled.h1`
   color: var(--purple);
   font-family: var(--font-mono);
-  font-size: clamp(100px, 25vw, 200px);
+  font-size: clamp(100px, 25vw, 125px);
   line-height: 1;
 `;
 const StyledSubtitle = styled.h2`
@@ -37,7 +37,7 @@ const NotFoundPage = ({ location }) => {
   const content = (
     <StyledMainContainer className="fillHeight">
       <StyledTitle>404</StyledTitle>
-      <StyledSubtitle>Page Not Found</StyledSubtitle>
+      <StyledSubtitle>Page Not Found!</StyledSubtitle>
       <StyledHomeButton to="/">Go Home</StyledHomeButton>
     </StyledMainContainer>
   );
