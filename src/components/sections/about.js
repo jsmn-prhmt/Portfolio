@@ -20,7 +20,7 @@ const StyledAboutSection = styled.section`
 const StyledText = styled.div`
   ul.skills-list {
     display: grid;
-    grid-template-columns: repeat(4, minmax(140px, 200px));
+    grid-template-columns: repeat(4, minmax(40px, 200px));
     grid-gap: 0 10px;
     padding: 0;
     margin: 20px 0 0 0;
@@ -153,6 +153,7 @@ const About = () => {
               className="img"
               src="../../images/me.jpg"
               width={500}
+              height={400}
               quality={95}
               formats={['AUTO', 'WEBP', 'AVIF']}
               alt="Headshot"
