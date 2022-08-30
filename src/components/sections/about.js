@@ -119,7 +119,7 @@ const About = () => {
     sr.reveal(revealContainer.current, srConfig());
   }, []);
 
-  const skills = ['JavaScript', 'TypeScript', 'GraphQL', 'Node.js/Express', 'React', 'Next.js/Gatsby',
+  const skills = ['JavaScript', 'TypeScript', 'GraphQL', 'Node.js/Express', 'React', 'Next.js', 'Gatsby',
     'MongoDB', 'MySQL'];
 
   return (
