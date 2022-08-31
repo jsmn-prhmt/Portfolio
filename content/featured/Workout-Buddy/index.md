@@ -17,3 +17,4 @@ Workout tracking application built with the MERN stack & REST API.
 Backend is Node js Express app, using Mongoose models to interact with MongoDB, and frontend is React app.
 
 JWT for authentication - Deployed with Heroku
+__Due to Heroku's [Dyano Sleeping](https://devcenter.heroku.com/articles/free-dyno-hours#dyno-sleeping) policy, you might experience an initial delay.__
