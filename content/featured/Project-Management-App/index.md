@@ -17,4 +17,7 @@ A simple managament MERN-app, with full CRUD functionality.
 Creating graphql-server on Node js Express app.     
 React + Apollo & Bootstrap for the frontend.
 
-Deployed with Heroku.     
+Deployed with Heroku // Due to Heroku's
+<a href="https://devcenter.heroku.com/articles/free-dyno-hours#dyno-sleeping" target="_blank" rel="noreferrer">
+Dyano Sleeping </a> 
+policy, you might experience an initial delay.

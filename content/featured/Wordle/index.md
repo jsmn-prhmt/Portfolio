@@ -12,4 +12,9 @@ tech:
 ---
 
 Based on the famous web-based word game using React.   
-Done with JSON data, deployed with Heroku and frontend with Netlify.
+Done with JSON data, deployed with Heroku and frontend with Netlify.     
+
+Due to Heroku's
+<a href="https://devcenter.heroku.com/articles/free-dyno-hours#dyno-sleeping" target="_blank" rel="noreferrer">
+Dyano Sleeping </a> 
+policy, you might experience an initial delay.

@@ -340,14 +340,6 @@ const Featured = () => {
       <h2 className="numbered-heading" ref={revealTitle}>
         Some Things I’ve Built, So Far 
       </h2>
-     
-
-      <p className="project-title">Due to Heroku's{' '} 
-        <a href="https://devcenter.heroku.com/articles/free-dyno-hours#dyno-sleeping" target="_blank" rel="noreferrer">
-        Dyano Sleeping
-        </a>
-        {' '} policy, you might experience an initial delay.
-      </p> 
 
       <StyledProjectsGrid>
         {featuredProjects &&
