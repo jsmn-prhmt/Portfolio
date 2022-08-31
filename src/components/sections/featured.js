@@ -340,6 +340,10 @@ const Featured = () => {
       <h2 className="numbered-heading" ref={revealTitle}>
         Some Things I’ve Built, So Far 
       </h2>
+      <h3>
+      __Due to Heroku's [Dyano Sleeping](https://devcenter.heroku.com/articles/free-dyno-hours#dyno-sleeping) policy, 
+      you might experience an initial delay.__
+      </h3>
 
       <StyledProjectsGrid>
         {featuredProjects &&
