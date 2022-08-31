@@ -18,4 +18,3 @@ Creating graphql-server on Node js Express app.
 React + Apollo & Bootstrap for the frontend.
 
 Deployed with Heroku.     
-__Due to Heroku's [Dyano Sleeping](https://devcenter.heroku.com/articles/free-dyno-hours#dyno-sleeping) policy, you might experience an initial delay.__
